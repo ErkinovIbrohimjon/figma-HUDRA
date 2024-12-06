@@ -1,0 +1,6 @@
+@mixin d-flex{
+    display: flex;
+    justify-content: $js;
+    align-items: center;
+    
+}
