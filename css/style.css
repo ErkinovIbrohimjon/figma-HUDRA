@@ -49,8 +49,8 @@
   box-sizing: border-box;
 }
 
-ul {
-  list-style: 0;
+li {
+  list-style: none;
 }
 
 a {
@@ -62,4 +62,138 @@ body {
   background: #2B2B2B;
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.header .container {
+  padding: 20px 30px;
+}
+.header .container .header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0;
+}
+.header .container .header__nav .header__logo {
+  width: 243px;
+  height: 32px;
+}
+.header .container .header__nav .header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 39px;
+}
+.header .container .header__nav .header__menu li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.header .container .header__nav .header__menu li a button {
+  padding: 19px 30px;
+  background-color: #A259FF;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  padding: 20px 30px;
+}
+.hero .hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.hero .hero__container .hero__item {
+  max-width: 510px;
+  height: 564px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0px;
+  flex-direction: column;
+}
+.hero .hero__container .hero__item h1 {
+  font-size: 67.5px;
+  font-weight: 600;
+  line-height: 73.7px;
+  color: #fff;
+}
+.hero .hero__container .hero__item p {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 35.2px;
+  margin-top: 20px;
+  color: #fff;
+}
+.hero .hero__container .hero__item button {
+  padding: 19px 50px;
+  background-color: #A259FF;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.hero .hero__container .hero__item .hero__about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 40px;
+}
+.hero .hero__container .hero__item .hero__about span {
+  width: 150px;
+  height: 75px;
+}
+.hero .hero__container .hero__item .hero__about span h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+.hero .hero__container .hero__item .hero__about span p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #fff;
+}
+.hero .hero__container .hero__card {
+  max-width: 510px;
+  height: 510px;
+  background-color: #3B3B3B;
+  border: none;
+  border-radius: 20px;
+}
+.hero .hero__container .hero__card .hero-card__item {
+  padding: 22px 20px;
+  gap: 10px;
+}
+.hero .hero__container .hero__card .hero-card__item h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
+.hero .hero__container .hero__card .hero-card__item .hero-card__avatar {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.hero .hero__container .hero__card .hero-card__item .hero-card__avatar p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

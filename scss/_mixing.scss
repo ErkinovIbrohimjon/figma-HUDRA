@@ -1,6 +1,20 @@
-@mixin d-flex{
+@mixin d-flex($js :flex-start,$gap:0,$al-it:flex-start){
     display: flex;
     justify-content: $js;
+    align-items: $al-it;
+    gap: $gap;
+}
+@mixin main-btn( $pd: 19px 30px , $bg: $back , $br: none , $gap :12px){
+    padding: $pd;
+    background-color: $bg;
+    color: $wte;
+    border: $br;
+    border-radius: 20px;
+    gap: $gap;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    
 }

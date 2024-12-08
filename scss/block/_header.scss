@@ -1,0 +1,25 @@
+.header{
+    .container{
+        padding: 20px 30px;
+        .header__nav{
+            @include d-flex($js:space-between );
+            .header__logo{
+                width: 243px;
+                height: 32px;
+            }
+            .header__menu{
+                @include d-flex($js:space-between ,$gap:39px);
+                li{
+                    a{
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: $wte;
+                        button{
+                            @include main-btn( $pd: 19px 30px , $bg: $back , $br: none , $gap :12px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
