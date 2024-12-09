@@ -4,10 +4,10 @@
     align-items: $al-it;
     gap: $gap;
 }
-@mixin main-btn( $pd: 19px 30px , $bg: $back , $br: none , $gap :12px){
+@mixin main-btn( $pd: 19px 30px , $bg: $back , $br: none , $gap :12px,$clr:$wte){
     padding: $pd;
     background-color: $bg;
-    color: $wte;
+    color: $clr;
     border: $br;
     border-radius: 20px;
     gap: $gap;

@@ -59,7 +59,7 @@ a {
 
 body {
   font-family: "WorkSans";
-  background: #2B2B2B;
+  background: #d3d3d3;
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -86,12 +86,12 @@ body {
 .header .container .header__nav .header__menu li a {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #3d3d3d;
 }
 .header .container .header__nav .header__menu li a button {
   padding: 19px 30px;
   background-color: #A259FF;
-  color: #fff;
+  color: #3d3d3d;
   border: none;
   border-radius: 20px;
   gap: 12px;
@@ -125,19 +125,19 @@ body {
   font-size: 67.5px;
   font-weight: 600;
   line-height: 73.7px;
-  color: #fff;
+  color: #3d3d3d;
 }
 .hero .hero__container .hero__item p {
   font-size: 23px;
   font-weight: 400;
   line-height: 35.2px;
   margin-top: 20px;
-  color: #fff;
+  color: #3d3d3d;
 }
 .hero .hero__container .hero__item button {
   padding: 19px 50px;
   background-color: #A259FF;
-  color: #fff;
+  color: #3d3d3d;
   border: none;
   border-radius: 20px;
   gap: 12px;
@@ -163,19 +163,19 @@ body {
 .hero .hero__container .hero__item .hero__about span h2 {
   font-size: 28px;
   font-weight: 700;
-  color: #fff;
+  color: #3d3d3d;
 }
 .hero .hero__container .hero__item .hero__about span p {
   font-size: 24px;
   font-weight: 400;
   line-height: 25px;
-  color: #fff;
+  color: #3d3d3d;
 }
 .hero .hero__container .hero__card {
   max-width: 510px;
   width: 100%;
   height: 510px;
-  background-color: #3B3B3B;
+  background-color: #e6e6e6;
   border: none;
   border-radius: 20px;
 }
@@ -186,7 +186,7 @@ body {
 .hero .hero__container .hero__card .hero-card__item h2 {
   font-size: 22px;
   font-weight: 600;
-  color: #fff;
+  color: #3d3d3d;
 }
 .hero .hero__container .hero__card .hero-card__item .hero-card__avatar {
   display: flex;
@@ -197,7 +197,7 @@ body {
 .hero .hero__container .hero__card .hero-card__item .hero-card__avatar p {
   font-size: 16px;
   font-weight: 400;
-  color: #fff;
+  color: #3d3d3d;
 }
 
 .users-card {
@@ -212,17 +212,17 @@ body {
 .users-card .card-top div h1 {
   font-size: 36px;
   font-weight: 600;
-  color: #fff;
+  color: #3d3d3d;
 }
 .users-card .card-top div p {
   font-size: 22px;
   font-weight: 400;
-  color: #fff;
+  color: #3d3d3d;
 }
 .users-card .card-top button {
   padding: 19px 50px;
   background-color: transparent;
-  color: #fff;
+  color: #3d3d3d;
   border: 2px solid #A259FF;
   border-radius: 20px;
   gap: 12px;
@@ -252,14 +252,14 @@ body {
   padding: 20px;
   border: none;
   border-radius: 20px;
-  background-color: #3B3B3B;
+  background-color: #e6e6e6;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 .users-card .cards ul li h2 {
-  color: #fff;
+  color: #3d3d3d;
   font-size: 22px;
   font-weight: 600;
   line-height: 30.8px;
@@ -271,7 +271,7 @@ body {
   color: #858584;
 }
 .users-card .cards ul li p span {
-  color: #fff;
+  color: #3d3d3d;
   font-family: monospace;
 }
 
@@ -298,7 +298,7 @@ body {
 .magic .container .magic__item div {
   display: flex;
   padding: 11px 20px;
-  background-color: #3B3B3B;
+  background-color: #e6e6e6;
   gap: 12px;
   width: -moz-min-content;
   width: min-content;
@@ -307,18 +307,18 @@ body {
   align-items: center;
 }
 .magic .container .magic__item div p {
-  color: #fff;
+  color: #3d3d3d;
 }
 .magic .container .magic__item h1 {
   font-size: 56px;
   font-weight: 600;
   line-height: 56.1px;
-  color: #fff;
+  color: #3d3d3d;
 }
 .magic .container .magic__item button {
   padding: 19px 50px;
-  background-color: #fff;
-  color: #2B2B2B;
+  background-color: #3d3d3d;
+  color: #d3d3d3;
   border: none;
   border-radius: 20px;
   gap: 12px;
@@ -337,7 +337,7 @@ body {
 .magic .container .magic__time {
   display: flex;
   flex-direction: column;
-  background-color: rgba(59, 59, 59, 0.5019607843);
+  background-color: rgba(151, 151, 151, 0.5019607843);
   padding: 30px;
   border-radius: 20px;
   gap: 10px;
@@ -348,7 +348,7 @@ body {
   font-size: 12px;
   font-weight: 400;
   line-height: 13.2px;
-  color: #fff;
+  color: #3d3d3d;
 }
 .magic .container .magic__time div {
   display: flex;
@@ -358,11 +358,11 @@ body {
   font-size: 38px;
   font-weight: 700;
   line-height: 45.6px;
-  color: #fff;
+  color: #3d3d3d;
 }
 .magic .container .magic__time div p {
   font-size: 12px;
   font-weight: 400;
   line-height: 13.2px;
-  color: #fff;
-}/*# sourceMappingURL=style.css.map */
+  color: #3d3d3d;
+}/*# sourceMappingURL=white-theme.css.map */
